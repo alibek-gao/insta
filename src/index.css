@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cell::before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
